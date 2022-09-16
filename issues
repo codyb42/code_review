@@ -1,0 +1,40 @@
+Base64.c line 41: function left paren needs to be on a new line
+Base64.c line 42, 66, 113, 141: function names are caps and no spaces not lowercase and underscore 
+Base64.c line 42: line is 96 characters long so I split the string into two lines
+Base64.c line 44: function comment should use the "very important single line comment" syntax by adding a blank line above and below 
+Base64.c line 47: unused variable "int i", solved by removing
+Base64.c line 62: need a blank line to start a multi-line comment
+Base64.c line 110: variable "char *TokenString" uses capital letters, changed to "char *token_string" changed in all
+neccesary locations
+Base64.c line 137: Mispelling of "Decode" fixed
+Base64.c line N/A: used 2 spaces for indentation instead of 4, fixed!
+base_64.c line N/A: changed name
+base_64.c line 152-153: unsigned instead of unsigned int
+
+main.c line 6: remove unneeded comment
+main.c line 7: include Base64.h
+main.c line 8: comment to short, needs more
+main.c line 10: comment should be above the function
+main.c line 34: grammer issue with comment
+main.c line 21: format spelled wrong
+main.c line 39: exit(0) to exit(1)
+main.c line 83, 87: function names corrected to use caps instead of underscores
+main.c line 58: functions in switch statement have an extra space before the parenthesis that need to be removed
+main.c line 91: remove unneeded comment
+main.c line 92: remove space
+
+uu.c line 58-59: removed register from variable declaration
+uu.c line 211: remove parenthesis around return value
+uu.c line 183: add brackets and indent if statement
+uu.c line 127: random newline removed
+uu.c line 153: space between uu and encoding needed in comment
+uu.c line 63: brackets should for while loop should start on same line as statement as well as end on the same indention
+uu.c line 68: brackets should for the for-loop should start on same line as statement as well as end on the same indention
+uu.c line 70: contents of for-loop not indented, so I added it
+uu.c line 133: spaces between condition and the parenthesis need to be removed
+uu.c line N/A: spaces between function names and parenthesis need to be removed
+uu.c line 62: while loop needed spaces
+uu.c line 67: foor loop needed spaces
+uu.c line 191: else statement needs to be moved up a line
+
+MakeFile changed Base64.c to base_64.c
